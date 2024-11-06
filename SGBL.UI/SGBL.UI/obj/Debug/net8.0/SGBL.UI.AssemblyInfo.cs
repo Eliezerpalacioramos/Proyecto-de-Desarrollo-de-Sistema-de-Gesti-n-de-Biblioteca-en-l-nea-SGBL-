@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SGBL.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc62874cdd5651e8909f787ffe0658403986f8a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f460f60f542c14e65dbcabd9dd3aa67eefd1ef4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SGBL.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SGBL.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

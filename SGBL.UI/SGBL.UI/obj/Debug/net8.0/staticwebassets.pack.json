@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Dariel\\OneDrive\\Desktop\\P3\\SGBL\\SGBL.UI\\SGBL.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SGBL.UI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SGBL.UI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Dariel\\OneDrive\\Desktop\\P3\\SGBL\\SGBL.UI\\SGBL.UI\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Dariel\\OneDrive\\Desktop\\P3\\SGBL\\SGBL.UI\\SGBL.UI\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dariel\\OneDrive\\Desktop\\P3\\SGBL\\SGBL.UI\\SGBL.UI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dariel\\OneDrive\\Desktop\\P3\\SGBL\\SGBL.UI\\SGBL.UI\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SGBL.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SGBL.UI.props",
+      "PackagePath": "build\\SGBL.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SGBL.UI.props",
+      "PackagePath": "buildMultiTargeting\\SGBL.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SGBL.UI.props",
+      "PackagePath": "buildTransitive\\SGBL.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
