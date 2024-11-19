@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SGBL.Data/1.0.0": {
+        "runtime": {
+          "SGBL.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SGBL.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
