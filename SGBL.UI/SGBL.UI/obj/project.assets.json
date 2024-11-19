@@ -1329,19 +1329,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dariel\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dariel\\OneDrive\\Desktop\\P3\\SGBL\\SGBL.UI\\SGBL.UI\\SGBL.UI.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI\\SGBL.UI.csproj",
       "projectName": "SGBL.UI",
-      "projectPath": "C:\\Users\\Dariel\\OneDrive\\Desktop\\P3\\SGBL\\SGBL.UI\\SGBL.UI\\SGBL.UI.csproj",
-      "packagesPath": "C:\\Users\\Dariel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dariel\\OneDrive\\Desktop\\P3\\SGBL\\SGBL.UI\\SGBL.UI\\obj\\",
+      "projectPath": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI\\SGBL.UI.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1356,8 +1356,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Dariel\\OneDrive\\Desktop\\P3\\SGBL\\SGBL.UI\\SGBL.UI.Client\\SGBL.UI.Client.csproj": {
-              "projectPath": "C:\\Users\\Dariel\\OneDrive\\Desktop\\P3\\SGBL\\SGBL.UI\\SGBL.UI.Client\\SGBL.UI.Client.csproj"
+            "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\SGBL.UI.Client.csproj": {
+              "projectPath": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\SGBL.UI.Client.csproj"
             }
           }
         }
