@@ -1,10 +1,13 @@
-using SGBL.UI.Client.Pages;
+using Microsoft.EntityFrameworkCore;
 using SGBL.UI.Components;
+using SGBL.Data.DBContext;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddRazorComponents()
+builder.Services.AddDbContext<SGBLDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SGBLDb")))
+    .AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
 
