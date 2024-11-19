@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\SGBL.Data\SGBL.Data.csproj" />
     <ProjectReference Include="..\SGBL.UI.Client\SGBL.UI.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.2" />
   </ItemGroup>

@@ -10,3 +10,4 @@ C:\Users\User\Source\Repos\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Bibli
 C:\Users\User\Source\Repos\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\SGBL.Data\obj\Debug\net8.0\refint\SGBL.Data.dll
 C:\Users\User\Source\Repos\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\SGBL.Data\obj\Debug\net8.0\SGBL.Data.pdb
 C:\Users\User\Source\Repos\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\SGBL.Data\obj\Debug\net8.0\ref\SGBL.Data.dll
+C:\Users\User\Source\Repos\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\SGBL.Data\obj\Debug\net8.0\SGBL.Data.csproj.AssemblyReference.cache
