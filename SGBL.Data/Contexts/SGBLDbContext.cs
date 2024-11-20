@@ -1,11 +1,14 @@
 ﻿using SGBL.Data.Models;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace SGBL.Data.Contexts
 {
     public class LibraryDbContext : DbContext
     {
-        public LibraryDbContext() : base("name=SGBLDbContext") { }
+        public LibraryDbContext(DbContextOptions<LibraryDbContext> options)
+           : base(options)
+        {
+        }
 
         public DbSet<Book> Books { get; set; }
         public DbSet<User> Users { get; set; }
@@ -15,9 +18,7 @@ namespace SGBL.Data.Contexts
         {
             try
             {
-                this.Database.Connection.Open();
-                this.Database.Connection.Close();
-                return true;
+                return this.Database.CanConnect();
             }
             catch (Exception ex)
             {
@@ -25,6 +26,7 @@ namespace SGBL.Data.Contexts
                 return false;
             }
         }
+
     }
 }
 
