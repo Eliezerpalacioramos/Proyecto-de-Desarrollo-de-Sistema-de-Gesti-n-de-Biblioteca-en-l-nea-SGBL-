@@ -1,0 +1,21 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - Dev
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Compile code
+        run: make build
+      - name: Test code
+        run: make test
+      - name: Deploy to production
+        uses: actions/deploy@v1
+        with:
+          environment: production
