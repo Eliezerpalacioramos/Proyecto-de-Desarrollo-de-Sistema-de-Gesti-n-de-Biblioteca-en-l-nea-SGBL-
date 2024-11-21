@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.Business\\SGBL.Business.csproj": {}
+    "C:\\Users\\Dariel\\OneDrive\\Desktop\\PIII\\SGBL.Business\\SGBL.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.Business\\SGBL.Business.csproj": {
+    "C:\\Users\\Dariel\\OneDrive\\Desktop\\PIII\\SGBL.Business\\SGBL.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.Business\\SGBL.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Dariel\\OneDrive\\Desktop\\PIII\\SGBL.Business\\SGBL.Business.csproj",
         "projectName": "SGBL.Business",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.Business\\SGBL.Business.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.Business\\obj\\",
+        "projectPath": "C:\\Users\\Dariel\\OneDrive\\Desktop\\PIII\\SGBL.Business\\SGBL.Business.csproj",
+        "packagesPath": "C:\\Users\\Dariel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dariel\\OneDrive\\Desktop\\PIII\\SGBL.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.Data\\SGBL.Data.csproj": {
-                "projectPath": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.Data\\SGBL.Data.csproj"
+              "C:\\Users\\Dariel\\OneDrive\\Desktop\\PIII\\SGBL.Data\\SGBL.Data.csproj": {
+                "projectPath": "C:\\Users\\Dariel\\OneDrive\\Desktop\\PIII\\SGBL.Data\\SGBL.Data.csproj"
               }
             }
           }
@@ -75,17 +75,17 @@
         }
       }
     },
-    "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.Data\\SGBL.Data.csproj": {
+    "C:\\Users\\Dariel\\OneDrive\\Desktop\\PIII\\SGBL.Data\\SGBL.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.Data\\SGBL.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Dariel\\OneDrive\\Desktop\\PIII\\SGBL.Data\\SGBL.Data.csproj",
         "projectName": "SGBL.Data",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.Data\\SGBL.Data.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.Data\\obj\\",
+        "projectPath": "C:\\Users\\Dariel\\OneDrive\\Desktop\\PIII\\SGBL.Data\\SGBL.Data.csproj",
+        "packagesPath": "C:\\Users\\Dariel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dariel\\OneDrive\\Desktop\\PIII\\SGBL.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

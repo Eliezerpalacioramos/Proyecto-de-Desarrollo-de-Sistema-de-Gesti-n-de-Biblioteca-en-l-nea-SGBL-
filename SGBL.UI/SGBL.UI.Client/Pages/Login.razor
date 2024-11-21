@@ -1,0 +1,54 @@
+﻿@page "/login"
+<h3>Login</h3>
+@using SGBL.Business.Services
+
+@using SGBL.UI.Client.Models
+
+
+<EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label for="email">Email:</label>
+        <InputText id="email" @bind-Value="loginModel.Email" class="form-control" />
+    </div>
+
+    <div>
+        <label for="password">Password:</label>
+        <InputText id="password" @bind-Value="loginModel.Password" type="password" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</EditForm>
+
+@code {
+    private LoginModel loginModel = new LoginModel();
+
+    private async Task HandleLogin()
+    {
+        // Validación del login llamando al servicio
+        var isAuthenticated = await AuthService.LoginAsync(loginModel.Email, loginModel.Password);
+        if (isAuthenticated)
+        {
+            // Redirige al usuario a la página principal o a otra página
+            NavigationManager.NavigateTo("/");
+        }
+        else
+        {
+            // Muestra un mensaje de error
+            // Puedes usar un modal o un simple alert
+            Console.WriteLine("Login failed!");
+        }
+    }
+
+    [Inject] private IAuthService AuthService { get; set; }
+    [Inject] private NavigationManager NavigationManager { get; set; }
+}
+
+public class LoginModel
+{
+    public string Email { get; set; }
+    public string Password { get; set; }
+}
+

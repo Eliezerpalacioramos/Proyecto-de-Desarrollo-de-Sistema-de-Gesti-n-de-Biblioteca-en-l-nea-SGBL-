@@ -1175,7 +1175,9 @@
       },
       "SGBL.UI.Client/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components.WebAssembly": "8.0.2"
+          "Microsoft.AspNetCore.Components.WebAssembly": "8.0.2",
+          "SGBL.Business": "1.0.0",
+          "SGBL.Data": "1.0.0"
         },
         "runtime": {
           "SGBL.UI.Client.dll": {
