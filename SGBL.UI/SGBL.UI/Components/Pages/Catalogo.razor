@@ -1,0 +1,108 @@
+﻿@page "/catalogo"
+
+<PageTitle>Catalogo</PageTitle>
+
+<div class="book-grid">
+    @foreach (var book in FilteredBooks)
+    {
+        <div class="book-card">
+            <img src="@book.ImageUrl" alt="@book.Title" class="book-cover" />
+            <h3>@book.Title</h3>
+            <p>@book.Author</p>
+            <p>@book.Year</p>
+        </div>
+    }
+</div>
+
+@code {
+    private List<Book> Books = new()
+    {
+        new Book { Title = "The Whale", Author = "Mark Beauregard", Year = "2016", ImageUrl = "Img/whale.jpg" },
+        new Book { Title = "The Hobbit", Author = "J.R.R. Tolkien", Year = "1937", ImageUrl = "Img/hobbit.jpg" },
+        new Book { Title = "The Wizard of Oz", Author = "L. Frank Baum", Year = "1900", ImageUrl = "Img/wizard.jpg" },
+        new Book { Title = "A Teaspoon of Earth and Sea", Author = "Dina Nayeri", Year = "2013", ImageUrl = "Img/teaspoon.jpg" },
+        new Book { Title = "Jaws", Author = "Peter Benchley", Year = "1973", ImageUrl = "Img/jaws.jpg" },
+        new Book { Title = "Sherlock Holmes", Author = "Arthur Conan Doyle", Year = "1887", ImageUrl = "Img/sherlock.jpg" },
+        new Book { Title = "Invisible Man", Author = "Ralph Ellison", Year = "1952", ImageUrl = "Img/invisible.jpg" },
+        new Book { Title = "New World", Author = "Aldous Huxley", Year = "1932", ImageUrl = "Img/newworld.jpg" },
+    };
+
+    private string SearchTerm { get; set; } = string.Empty;
+
+    private IEnumerable<Book> FilteredBooks => string.IsNullOrWhiteSpace(SearchTerm)
+        ? Books
+        : Books.Where(b => b.Title.Contains(SearchTerm, StringComparison.OrdinalIgnoreCase));
+
+
+    public class Book
+    {
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public string Year { get; set; }
+        public string ImageUrl { get; set; }
+    }
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        background-color: #600000;
+        color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .navbar h2 {
+            margin: 0;
+        }
+
+    .search-bar {
+        padding: 5px;
+        font-size: 16px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .book-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+    }
+
+    .book-card {
+        background-color: #f4f4f4;
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .book-cover {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .book-card h3, .book-card p {
+        margin: 10px 0;
+    }
+
+    .book-card:hover {
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        transform: scale(1.05);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+
+</style>

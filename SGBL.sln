@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGBL.Data", "SGBL.Data\SGBL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGBL.Test", "SGBL.Test\SGBL.Test.csproj", "{4B07B3C1-BA58-4D24-BCF2-876EEBDD471B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionTest", "ConnectionTest\ConnectionTest.csproj", "{10E2C60F-9F8B-41F5-9682-0A10B81C7F52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectionTest", "ConnectionTest\ConnectionTest.csproj", "{10E2C60F-9F8B-41F5-9682-0A10B81C7F52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

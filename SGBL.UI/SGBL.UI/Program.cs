@@ -7,10 +7,10 @@ using SGBL.UI.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+var connectionString = builder.Configuration.GetConnectionString("SGBLDbContext");
 
 builder.Services.AddDbContext<LibraryDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SGBLDbContext")));
+    options.UseSqlServer(connectionString));
 
 builder.Services.AddScoped<IUserService, UserService>();
 

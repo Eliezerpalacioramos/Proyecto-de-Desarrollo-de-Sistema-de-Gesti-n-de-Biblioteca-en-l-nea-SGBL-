@@ -9,6 +9,42 @@
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
+      "Id": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SGBL.UI.Client.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SGBL.UI.Client.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\wwwroot\\Img\\hobbit.jpg",
+      "PackagePath": "staticwebassets\\Img\\hobbit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\wwwroot\\Img\\invisible.jpg",
+      "PackagePath": "staticwebassets\\Img\\invisible.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\wwwroot\\Img\\jaws.jpg",
+      "PackagePath": "staticwebassets\\Img\\jaws.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\wwwroot\\Img\\newworld.jpg",
+      "PackagePath": "staticwebassets\\Img\\newworld.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\wwwroot\\Img\\sherlock.jpg",
+      "PackagePath": "staticwebassets\\Img\\sherlock.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\wwwroot\\Img\\teaspoon.jpg",
+      "PackagePath": "staticwebassets\\Img\\teaspoon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\wwwroot\\Img\\whale.jpg",
+      "PackagePath": "staticwebassets\\Img\\whale.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\wwwroot\\Img\\wizard.jpg",
+      "PackagePath": "staticwebassets\\Img\\wizard.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\wwwroot\\appsettings.Development.json",
       "PackagePath": "staticwebassets\\appsettings.Development.json"
     },

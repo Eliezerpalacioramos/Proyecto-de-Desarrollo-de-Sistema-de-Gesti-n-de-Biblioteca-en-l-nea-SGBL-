@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -11,5 +11,25 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.2" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SGBL.Business\SGBL.Business.csproj" />
+    <ProjectReference Include="..\..\SGBL.Data\SGBL.Data.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<None Update="appsettings.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="wwwroot\Img\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="wwwroot\Img\hobbit.jpg" />
+	  <None Include="wwwroot\Img\wizard.jpg" />
+	</ItemGroup>
 
 </Project>

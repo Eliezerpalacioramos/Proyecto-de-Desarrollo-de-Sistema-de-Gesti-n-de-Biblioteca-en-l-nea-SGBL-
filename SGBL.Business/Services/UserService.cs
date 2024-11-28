@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SGBL.Data.Models;
 using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace SGBL.Business.Services
 {
@@ -17,7 +18,7 @@ namespace SGBL.Business.Services
 
         public UserService(LibraryDbContext context)
         {
-            _context = context;
+            _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
         public async Task<bool> RegisterUser(User user)
