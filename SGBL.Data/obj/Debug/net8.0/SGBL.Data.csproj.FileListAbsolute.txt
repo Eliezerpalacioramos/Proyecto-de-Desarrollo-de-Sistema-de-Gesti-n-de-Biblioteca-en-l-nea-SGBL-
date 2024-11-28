@@ -14,6 +14,7 @@ C:\Users\Dariel\OneDrive\Desktop\P3\SGBL\SGBL.Data\obj\Debug\net8.0\refint\SGBL.
 C:\Users\Dariel\OneDrive\Desktop\P3\SGBL\SGBL.Data\obj\Debug\net8.0\SGBL.Data.pdb
 C:\Users\Dariel\OneDrive\Desktop\P3\SGBL\SGBL.Data\obj\Debug\net8.0\SGBL.Data.genruntimeconfig.cache
 C:\Users\Dariel\OneDrive\Desktop\P3\SGBL\SGBL.Data\obj\Debug\net8.0\ref\SGBL.Data.dll
+<<<<<<< HEAD
 C:\Users\User\Source\Repos\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\SGBL.Data\bin\Debug\net8.0\SGBL.Data.dll.config
 C:\Users\User\Source\Repos\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\SGBL.Data\bin\Debug\net8.0\SGBL.Data.deps.json
 C:\Users\User\Source\Repos\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\SGBL.Data\bin\Debug\net8.0\SGBL.Data.runtimeconfig.json
@@ -30,3 +31,21 @@ C:\Users\User\Source\Repos\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Bibli
 C:\Users\User\Source\Repos\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\SGBL.Data\obj\Debug\net8.0\SGBL.Data.pdb
 C:\Users\User\Source\Repos\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\SGBL.Data\obj\Debug\net8.0\SGBL.Data.genruntimeconfig.cache
 C:\Users\User\Source\Repos\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\SGBL.Data\obj\Debug\net8.0\ref\SGBL.Data.dll
+=======
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\bin\Debug\net8.0\SGBL.Data.dll.config
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\bin\Debug\net8.0\SGBL.Data.deps.json
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\bin\Debug\net8.0\SGBL.Data.runtimeconfig.json
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\bin\Debug\net8.0\SGBL.Data.dll
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\bin\Debug\net8.0\SGBL.Data.pdb
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\obj\Debug\net8.0\SGBL.Data.csproj.AssemblyReference.cache
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\obj\Debug\net8.0\SGBL.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\obj\Debug\net8.0\SGBL.Data.AssemblyInfoInputs.cache
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\obj\Debug\net8.0\SGBL.Data.AssemblyInfo.cs
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\obj\Debug\net8.0\SGBL.Data.csproj.CoreCompileInputs.cache
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\obj\Debug\net8.0\SGBL.Data.sourcelink.json
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\obj\Debug\net8.0\SGBL.Data.dll
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\obj\Debug\net8.0\refint\SGBL.Data.dll
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\obj\Debug\net8.0\SGBL.Data.pdb
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\obj\Debug\net8.0\SGBL.Data.genruntimeconfig.cache
+C:\Users\Dariel\OneDrive\Desktop\PIII\SGBL.Data\obj\Debug\net8.0\ref\SGBL.Data.dll
+>>>>>>> c462bc9646eb35bf5e265e7964f736e9322e1943

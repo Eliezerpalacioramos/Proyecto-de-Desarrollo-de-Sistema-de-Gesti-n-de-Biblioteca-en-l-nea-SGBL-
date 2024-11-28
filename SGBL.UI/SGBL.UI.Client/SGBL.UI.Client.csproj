@@ -17,6 +17,7 @@
     <ProjectReference Include="..\..\SGBL.Data\SGBL.Data.csproj" />
   </ItemGroup>
 
+
 	<ItemGroup>
 		<None Update="appsettings.json">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

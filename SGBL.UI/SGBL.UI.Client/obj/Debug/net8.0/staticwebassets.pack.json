@@ -1,14 +1,15 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\Dariel\\OneDrive\\Desktop\\PIII\\SGBL.UI\\SGBL.UI.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\obj\\Debug\\net8.0\\compressed\\qpzr0l9ehk.gz",
+      "Id": "C:\\Users\\Dariel\\OneDrive\\Desktop\\PIII\\SGBL.UI\\SGBL.UI.Client\\obj\\Debug\\net8.0\\compressed\\tgevqqt1la.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SGBL.UI.Client.bundle.scp.css",
       "PackagePath": "staticwebassets\\SGBL.UI.Client.bundle.scp.css"
     },
@@ -46,10 +47,13 @@
     },
     {
       "Id": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\wwwroot\\appsettings.Development.json",
+=======
+      "Id": "C:\\Users\\Dariel\\OneDrive\\Desktop\\PIII\\SGBL.UI\\SGBL.UI.Client\\wwwroot\\appsettings.Development.json",
+>>>>>>> c462bc9646eb35bf5e265e7964f736e9322e1943
       "PackagePath": "staticwebassets\\appsettings.Development.json"
     },
     {
-      "Id": "C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\wwwroot\\appsettings.json",
+      "Id": "C:\\Users\\Dariel\\OneDrive\\Desktop\\PIII\\SGBL.UI\\SGBL.UI.Client\\wwwroot\\appsettings.json",
       "PackagePath": "staticwebassets\\appsettings.json"
     },
     {

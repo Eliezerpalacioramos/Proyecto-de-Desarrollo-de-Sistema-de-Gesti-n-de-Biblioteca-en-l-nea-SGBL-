@@ -1,6 +1,10 @@
+
 .vs/
 /obj/
 /bin/
 *.dll
 *.targets
 *.csproj.user
+*.user
+*.suo
+

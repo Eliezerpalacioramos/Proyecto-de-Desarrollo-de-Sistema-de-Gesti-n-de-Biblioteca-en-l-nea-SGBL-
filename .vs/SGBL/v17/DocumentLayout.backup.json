@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D318B895-153C-41E7-9F39-C52C07C6EC84}|SGBL.UI\\SGBL.UI\\SGBL.UI.csproj|c:\\users\\user\\source\\repos\\proyecto-de-desarrollo-de-sistema-de-gestion-de-biblioteca-en-linea-sgbl-\\sgbl.ui\\sgbl.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D318B895-153C-41E7-9F39-C52C07C6EC84}|SGBL.UI\\SGBL.UI\\SGBL.UI.csproj|solutionrelative:sgbl.ui\\sgbl.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0B1B0E2-3878-416B-95B5-8ACE1945F6CD}|SGBL.UI\\SGBL.UI.Client\\SGBL.UI.Client.csproj|c:\\users\\user\\source\\repos\\proyecto-de-desarrollo-de-sistema-de-gestion-de-biblioteca-en-linea-sgbl-\\sgbl.ui\\sgbl.ui.client\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0B1B0E2-3878-416B-95B5-8ACE1945F6CD}|SGBL.UI\\SGBL.UI.Client\\SGBL.UI.Client.csproj|solutionrelative:sgbl.ui\\sgbl.ui.client\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B66A93A9-D354-4306-A4A1-DE9729B24AB5}|SGBL.Business\\SGBL.Business.csproj|c:\\users\\user\\source\\repos\\proyecto-de-desarrollo-de-sistema-de-gestion-de-biblioteca-en-linea-sgbl-\\sgbl.business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B66A93A9-D354-4306-A4A1-DE9729B24AB5}|SGBL.Business\\SGBL.Business.csproj|solutionrelative:sgbl.business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI\\Program.cs",
+              "RelativeDocumentMoniker": "SGBL.UI\\SGBL.UI\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI\\Program.cs",
+              "RelativeToolTip": "SGBL.UI\\SGBL.UI\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T20:57:17.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "SGBL.UI\\SGBL.UI.Client\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.UI\\SGBL.UI.Client\\Pages\\Register.razor",
+              "RelativeToolTip": "SGBL.UI\\SGBL.UI.Client\\Pages\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T21:37:54.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.Business\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "SGBL.Business\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\SGBL.Business\\Services\\AuthService.cs",
+              "RelativeToolTip": "SGBL.Business\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T21:08:53.457Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

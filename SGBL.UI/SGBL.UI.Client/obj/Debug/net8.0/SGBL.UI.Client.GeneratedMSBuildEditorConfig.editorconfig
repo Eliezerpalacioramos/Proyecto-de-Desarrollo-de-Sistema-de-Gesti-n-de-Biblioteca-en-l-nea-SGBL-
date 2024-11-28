@@ -22,6 +22,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\User\Source\Repos\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\SGBL.UI\SGBL.UI.Client
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/User/Source/Repos/Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-/SGBL.UI/SGBL.UI.Client/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Source/Repos/Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-/SGBL.UI/SGBL.UI.Client/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

@@ -4,11 +4,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <UseRazorComponents>true</UseRazorComponents>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\SGBL.Business\SGBL.Business.csproj" />
     <ProjectReference Include="..\SGBL.UI.Client\SGBL.UI.Client.csproj" />
+	  <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />

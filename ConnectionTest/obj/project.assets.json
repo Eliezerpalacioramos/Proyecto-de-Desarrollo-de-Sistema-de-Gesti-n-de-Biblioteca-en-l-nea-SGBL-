@@ -3321,5 +3321,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\User\\Source\\Repos\\Proyecto-de-Desarrollo-de-Sistema-de-Gestion-de-Biblioteca-en-linea-SGBL-\\ConnectionTest\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
