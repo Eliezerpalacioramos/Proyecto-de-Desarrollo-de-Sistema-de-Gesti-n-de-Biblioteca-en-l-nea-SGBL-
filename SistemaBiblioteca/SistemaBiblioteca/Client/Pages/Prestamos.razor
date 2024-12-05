@@ -1,0 +1,118 @@
+﻿@page "/pages/prestamos"
+@using SistemaBiblioteca.Client.Pages.Modales;
+@inject MenuService _menuServicio;
+@inject IPrestamoServicio _prestamoServicio;
+@inject IDialogService _dialogServicio;
+
+<MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="mt-5">
+
+    <MudPaper Elevation="3" Class="pa-4" Style="background: url('https://via.placeholder.com/1200x400?text=Historial+de+Préstamos'); background-size: cover; background-position: center; color: white;">
+        <MudText Typo="Typo.h4" Class="mt-2"></MudText>
+    </MudPaper>
+
+    <MudGrid Class="mt-4">
+        <MudItem xs="12">
+            <div class="d-flex gap-3">
+                <MudSelect T="string" Label="Estado Préstamos" Variant="Variant.Outlined" AnchorOrigin="Origin.BottomCenter"
+                           @bind-Value="@estadoPrestamo" Margin="Margin.Dense">
+                    <MudSelectItem Value="@("Todos")" />
+                    <MudSelectItem Value="@("Pendiente")" />
+                    <MudSelectItem Value="@("Devuelto")" />
+                </MudSelect>
+                <MudTextField @bind-Value="codigoLector" Label="Código Lector" Variant="Variant.Outlined" Margin="Margin.Dense" />
+                <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Search" Color="Color.Info"
+                           AnchorOrigin="Origin.BottomCenter" Size="Size.Medium" OnClick="Buscar">Buscar</MudButton>
+            </div>
+        </MudItem>
+
+        @if (_listaPrestamo.Any())
+        {
+            @foreach (var prestamo in _listaPrestamo)
+            {
+                <MudItem xs="12" md="6" lg="4">
+                    <MudCard Class="mb-4">
+                        <MudCardMedia Image="https://via.placeholder.com/150" Class="media-height" />
+                        <MudCardContent>
+                            <MudText Typo="Typo.subtitle1" Class="mb-2">@prestamo.IdLibroNavigation.Titulo</MudText>
+                            <MudText Typo="Typo.body2">Lector: @(prestamo.IdLectorNavigation.Nombre + " " + prestamo.IdLectorNavigation.Apellido)</MudText>
+                            <MudText Typo="Typo.body2">Estado: 
+                                @if (prestamo.IdEstadoPrestamoNavigation!.IdEstadoPrestamo == 1)
+                                {
+                                    <MudChip Color="Color.Error" Size="Size.Small">@prestamo.IdEstadoPrestamoNavigation.Descripcion</MudChip>
+                                }
+                                else
+                                {
+                                    <MudChip Color="Color.Success" Size="Size.Small">@prestamo.IdEstadoPrestamoNavigation.Descripcion</MudChip>
+                                }
+                            </MudText>
+                        </MudCardContent>
+                        <MudCardActions>
+                            <MudButton Variant="Variant.Filled" Color="Color.Info" OnClick="@(() => VerDetalle(prestamo))">
+                                Ver Detalle
+                            </MudButton>
+                        </MudCardActions>
+                    </MudCard>
+                </MudItem>
+            }
+        }
+        else
+        {
+            <MudItem xs="12">
+                <MudText Typo="Typo.body1" Class="text-center mt-4">No se encontraron préstamos con los filtros aplicados.</MudText>
+            </MudItem>
+        }
+    </MudGrid>
+
+</MudContainer>
+
+@code {
+    List<PrestamoDTO> _listaPrestamo = new List<PrestamoDTO>();
+    string searchString1 = "";
+    PrestamoDTO selectedItem1 = null;
+    bool _loading = true;
+    string codigoLector = "";
+    string estadoPrestamo = "Todos";
+
+    private async Task ObtenerPrestamos()
+    {
+        var result = await _prestamoServicio.Lista();
+        if (result.status)
+        {
+            _listaPrestamo = (List<PrestamoDTO>)result.value!;
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        _menuServicio.SetMenu(new BreadcrumbItem("Historial Préstamos", href: null));
+        await ObtenerPrestamos();
+        _loading = false;
+    }
+
+    private async Task Buscar()
+    {
+        _loading = true;
+        var result = await _prestamoServicio.Buscar(estadoPrestamo.ToLower(), string.IsNullOrEmpty(codigoLector) ? "na" : codigoLector);
+        if (result.status)
+        {
+            _listaPrestamo = (List<PrestamoDTO>)result.value!;
+        }
+        _loading = false;
+    }
+
+    private async Task VerDetalle(PrestamoDTO modelo)
+    {
+        var parametros = new DialogParameters { ["_prestamo"] = modelo };
+        string titulo = modelo.IdEstadoPrestamoNavigation!.IdEstadoPrestamo == 1 ? "Devolver libro" : "Detalle Devolución";
+
+        var dialogo = _dialogServicio.Show<DetallePrestamo>(titulo, parametros);
+        var resultado = await dialogo.Result;
+
+        if (!resultado.Canceled)
+        {
+            _loading = true;
+            await ObtenerPrestamos();
+            _loading = false;
+        }
+    }
+}

@@ -1,0 +1,77 @@
+﻿@page "/pages/dashboard"
+@inject MenuService _menuServicio;
+@inject IDashBoardServicio _dashboardServicio;
+
+<MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="mt-5">
+
+    <MudGrid Class="mud-spacing-y-4">
+        <MudItem sm="12" md="6" xs="12">
+            <MudCard Class="dashboard-card" Elevation="5">
+                <MudCardMedia Image="https://via.placeholder.com/800x400?text=Libros" Class="media-height" />
+                <MudCardContent>
+                    <MudText Typo="Typo.h3" Class="text-white text-bold">@dashboardDTO.TotalLibros</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem sm="12" md="6" xs="12">
+            <MudCard Class="dashboard-card" Elevation="5">
+                <MudCardMedia Image="https://via.placeholder.com/800x400?text=Lectores" Class="media-height" />
+                <MudCardContent>
+                    <MudText Typo="Typo.h3" Class="text-white text-bold">@dashboardDTO.TotalLectores</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem sm="12" md="6" xs="12">
+            <MudCard Class="dashboard-card" Elevation="5">
+                <MudCardMedia Image="https://via.placeholder.com/800x400?text=Prestamos+Registrados" Class="media-height" />
+                <MudCardContent>
+                    <MudText Typo="Typo.h3" Class="text-white text-bold">@dashboardDTO.PrestamosRegistrados</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem sm="12" md="6" xs="12">
+            <MudCard Class="dashboard-card" Elevation="5">
+                <MudCardMedia Image="https://via.placeholder.com/800x400?text=Prestamos+Pendientes" Class="media-height" />
+                <MudCardContent>
+                    <MudText Typo="Typo.h3" Class="text-white text-bold">@dashboardDTO.PrestamosPendientes</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
+
+</MudContainer>
+
+<style>
+    .dashboard-card {
+        position: relative;
+        color: white;
+        overflow: hidden;
+    }
+
+        .dashboard-card .mud-card-media {
+            filter: brightness(0.7);
+        }
+
+        .dashboard-card .mud-card-content {
+            position: absolute;
+            bottom: 10px;
+            left: 15px;
+        }
+
+    .text-bold {
+        font-weight: 700;
+    }
+</style>
+
+@code {
+    DashBoardDTO dashboardDTO = new DashBoardDTO();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _menuServicio.SetMenu(new BreadcrumbItem("Dashboard", href: null));
+
+        var respuesta = await _dashboardServicio.Resumen();
+        if (respuesta.status)
+            dashboardDTO = (DashBoardDTO)respuesta.value!;
+    }
+}
