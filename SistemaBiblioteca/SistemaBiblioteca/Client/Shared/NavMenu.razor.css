@@ -1,10 +1,10 @@
 .navbar-toggler {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgb(255, 255, 224); 
 }
 
 .top-row {
     height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgb(255, 165, 0); 
 }
 
 .navbar-brand {
@@ -32,7 +32,7 @@
     }
 
     .nav-item ::deep a {
-        color: #d7d7d7;
+        color: rgb(34, 139, 34); 
         border-radius: 4px;
         height: 3rem;
         display: flex;
@@ -41,13 +41,13 @@
     }
 
 .nav-item ::deep a.active {
-    background-color: rgba(255,255,255,0.25);
+    background-color: rgb(255, 165, 0); 
     color: white;
 }
 
 .nav-item ::deep a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
+    background-color: rgb(255, 255, 224); 
+    color: rgb(34, 139, 34); 
 }
 
 @media (min-width: 641px) {
@@ -56,12 +56,12 @@
     }
 
     .collapse {
-        /* Never collapse the sidebar for wide screens */
+        
         display: block;
     }
     
     .nav-scrollable {
-        /* Allow sidebar to scroll for tall menus */
+        
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
